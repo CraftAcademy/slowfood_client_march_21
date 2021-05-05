@@ -13,5 +13,4 @@ blocks:
             - sem-version node 12
             - checkout
             - yarn install
-            - 'yarn start:silent'
-            - 'yarn cy:run'
+            - 'yarn cy:integrate'
